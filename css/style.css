@@ -1,0 +1,1569 @@
+@font-face {
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-family: Roboto-Bold sans-serif;
+}
+@font-face {
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: Roboto-Regular sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__description {
+  margin-top: 102px;
+  text-align: center;
+  width: 565px;
+}
+.header__top {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1220px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__content {
+  height: 651px;
+  width: 100%;
+  background: #fef7e5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__photo:nth-child(3) {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 295px;
+}
+.header__photo:nth-child(1) {
+  position: absolute;
+  left: 0;
+}
+.header__photo:nth-child(4) {
+  position: absolute;
+  right: 0;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  margin: 5px 0px;
+  height: 2px;
+  background: #000;
+}
+
+.nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.nav__link-item {
+  font-family: Roboto-Regular sans-serif;
+  color: #000000;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 14px;
+  margin: 0px 13px;
+  text-decoration: none;
+}
+.nav__link-item:hover {
+  color: #cc2424;
+}
+
+.logo__item {
+  margin-left: 109px;
+  margin-right: 210px;
+}
+
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration .text .text-link {
+  font-family: Roboto-Regular sans-serif;
+  color: #6f1eaa;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-right: 33px;
+  font-size: 14px;
+}
+.registration .text .text-link:hover {
+  color: #8d15e2;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: Roboto-Bold sans-serif;
+  font-size: 14px;
+  border-radius: 20px;
+  background: #6f1eaa;
+  padding: 10px 43px;
+  border: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: none;
+  color: #fff;
+}
+.btn:hover {
+  background: #800cd3;
+}
+
+.description .btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.title {
+  margin-bottom: 32px;
+  font-size: 55px;
+  line-height: 67px;
+  font-family: Roboto-Regular sans-serif;
+}
+
+.subtitle {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 20px;
+  margin-bottom: 23px;
+  line-height: 28px;
+}
+.subtitle span {
+  color: #6f1eaa;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.benefits .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 45px;
+  margin-top: 58px;
+  max-width: 1140px;
+}
+.benefits__description {
+  margin-right: 147px;
+}
+.benefits__inner {
+  width: 527px;
+}
+.benefits__inner .title {
+  line-height: 53px;
+  font-size: 44px;
+}
+.benefits .photo {
+  width: 280px;
+  height: 377px;
+}
+
+.advertising__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advertising {
+  margin-bottom: 30px;
+}
+.advertising .title {
+  margin-bottom: 19px;
+  line-height: normal;
+  font-family: Roboto-Bold sans-serif;
+  font-size: 24px;
+  color: #6f1eaa;
+}
+.advertising .subtitle {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 27px;
+}
+.advertising .bottom {
+  margin-bottom: 7px;
+}
+.advertising .text {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 15px;
+  margin-bottom: 57px;
+}
+.advertising hr {
+  background: #f7a500;
+  height: 1px;
+}
+
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.works .wrapper {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1220px;
+}
+.works .btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.works .title {
+  font-size: 44px;
+  line-height: 53px;
+}
+.works .examples__title {
+  font-size: 24px;
+  font-family: Roboto-Regular sans-serif;
+  line-height: normal;
+  margin-top: 31px;
+  margin-bottom: 11px;
+}
+.works .examples__subtitle {
+  font-size: 11px;
+  line-height: 23px;
+}
+
+.examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.examples__description {
+  margin: 0px 25px;
+  width: 326px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.veterinarians {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.veterinarians .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  margin-bottom: 8px;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.veterinarians__photo {
+  margin-right: 32px;
+}
+.veterinarians__description .text {
+  font-family: Roboto-Bold sans-serif;
+  font-size: 16px;
+  margin-bottom: 8px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: #f7a500;
+}
+.veterinarians__description .title {
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 43px;
+}
+.veterinarians__description .subtitle {
+  font-size: 16px;
+  margin-bottom: 26px;
+  line-height: 23px;
+}
+
+.reviews {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.reviews .title {
+  margin-top: 58px;
+  font-family: Roboto-Bold sans-serif;
+  font-size: 43px;
+  line-height: normal;
+  margin-bottom: 24px;
+  line-height: 53px;
+}
+.reviews .subtitle {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 33px;
+}
+.reviews__photo {
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 690px;
+}
+.reviews__sliders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 1072px;
+  height: 354px;
+  margin: 0px 80px;
+  margin-bottom: 162px;
+  border-radius: 20px;
+  background: #dff5f6;
+}
+.slider__inner {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+.slider__photo {
+  margin-right: 40px;
+}
+.slider__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paragraph {
+  max-width: 709px;
+  margin-bottom: 8px;
+  font-family: Roboto-Regular sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.social-network {
+  margin-right: 10px;
+}
+.location {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 20px;
+}
+
+.article {
+  background: #faf9f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.article .btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 57px;
+}
+.article .title {
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 30px;
+}
+.article .text {
+  font-family: Roboto-Bold sans-serif;
+  font-size: 16px;
+  margin-bottom: 8px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: #f7a500;
+}
+.article .subtitle {
+  width: 455px;
+  font-family: Roboto-Bold sans-serif;
+  font-size: 13px;
+  line-height: 23px;
+  margin-bottom: 76px;
+}
+.article__photo {
+  position: absolute;
+}
+.article__photo:nth-child(2) {
+  left: 0;
+}
+.article__photo:nth-child(4) {
+  right: 0;
+}
+.article__content {
+  margin-bottom: 49px;
+}
+.article__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.panel-article {
+  margin: 0px 16px;
+  background: #fff;
+}
+.panel-article__inner {
+  border: 1px solid #e8dcf8;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+  max-width: 384px;
+}
+.panel-article__inner:hover {
+  border: 1px solid #cccbcc;
+}
+.panel-article__description {
+  margin-top: 35px;
+  margin-left: 36px;
+}
+.panel-article__description .text {
+  letter-spacing: normal;
+  font-size: 15px;
+  text-transform: none;
+  margin-bottom: 15px;
+  line-height: 23px;
+  font-family: Roboto-Regular sans-serif;
+}
+.panel-article__description .title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  line-height: 32px;
+}
+.panel-article__description .subtitle {
+  font-size: 11px;
+  margin-bottom: 0px;
+  font-family: Roboto-Regular sans-serif;
+  width: auto;
+  line-height: 23px;
+}
+.panel-article .margin {
+  margin-top: 50px;
+}
+.panel-article .btn {
+  padding: 0;
+}
+.panel-article__btn {
+  margin-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-family: Roboto-Regular sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6f1eaa;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: none;
+}
+.panel-article__btn:hover {
+  background: none;
+  color: #8c1add;
+}
+
+.company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  background: #6f1eaa;
+}
+.company__emblem {
+  margin: 40px 30px;
+}
+.company__emblem-item {
+  width: 177px;
+  height: 87px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #48156d;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.footer__content {
+  margin-top: 56px;
+}
+.footer__links {
+  margin-bottom: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__info {
+  margin-bottom: 40px;
+}
+
+.link {
+  margin-right: 77px;
+}
+.link:nth-child(4) {
+  margin-right: 40px;
+}
+.link .margin {
+  margin-bottom: 15px;
+}
+.link__item {
+  list-style: none;
+  margin-bottom: 6px;
+}
+.link__item a {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.link__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 177px;
+}
+.link__icons .link__icon {
+  list-style: none;
+  margin-bottom: 16px;
+}
+.link__icons .link__icon a {
+  margin-right: 31px;
+}
+
+.bold {
+  margin-bottom: 15px;
+}
+.bold a {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 12px;
+  margin-bottom: 15px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #c282f0;
+}
+
+.link-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.link-row__item {
+  margin-right: 18px;
+  list-style: none;
+}
+.link-row__item a {
+  font-family: Roboto-Regular sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+  .reviews__sliders .slider {
+    margin: 0px 30px;
+    margin-bottom: 142px;
+  }
+  .reviews__sliders .slider:nth-child(1) {
+    display: none;
+  }
+  .reviews__sliders .slider:nth-child(3) {
+    display: none;
+  }
+
+  .description .reviews__photo {
+    margin-left: 600px;
+    margin-top: -150px;
+  }
+}
+@media (max-width: 1180px) {
+  .benefits__description {
+    margin-right: 87px;
+  }
+
+  .veterinarians__description .title {
+    margin-bottom: 22px;
+    font-size: 45px;
+    line-height: 47px;
+  }
+
+  .logo .logo__item {
+    margin-left: 109px;
+    margin-right: 109px;
+  }
+}
+@media (max-width: 1145px) {
+  .footer .wrapper {
+    width: 95%;
+  }
+
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .company__emblem-item {
+    width: 117px;
+    height: 87px;
+  }
+
+  .description .reviews__photo {
+    margin-left: 550px;
+    margin-top: -150px;
+  }
+
+  .paragraph {
+    max-width: 95%;
+  }
+
+  .reviews__sliders .slider {
+    width: 90%;
+    height: 304px;
+    margin: 0px 0px;
+    margin-bottom: 162px;
+    border-radius: 20px;
+  }
+
+  .examples {
+    margin-top: 25px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .benefits .wrapper {
+    width: 95%;
+  }
+
+  .veterinarians .wrapper {
+    width: 95%;
+  }
+
+  .benefits__inner .title {
+    font-size: 35px;
+  }
+
+  .benefits__description {
+    margin-right: 47px;
+  }
+
+  .title {
+    margin-bottom: 22px;
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .veterinarians__description .title {
+    margin-bottom: 22px;
+    font-size: 35px;
+    line-height: 47px;
+  }
+}
+@media (max-width: 1180px) {
+  .article__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .panel-article {
+    margin: 25px 0px;
+  }
+}
+@media (max-width: 1080px) {
+  .benefits__inner .title {
+    font-size: 30px;
+  }
+
+  .benefits__description {
+    margin-right: 37px;
+  }
+
+  .article .description {
+    margin-top: 25px;
+  }
+
+  .reviews .title {
+    font-size: 33px;
+    line-height: 15px;
+  }
+
+  .works .title {
+    font-size: 34px;
+    line-height: 53px;
+  }
+
+  .advertising .title {
+    line-height: normal;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .logo .logo__item {
+    margin-left: 69px;
+    margin-right: 69px;
+  }
+}
+@media (max-width: 1030px) {
+  .location {
+    font-size: 15px;
+  }
+
+  .paragraph {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  .slider__inner {
+    margin: 25px 15px;
+  }
+
+  .reviews__sliders .slider {
+    width: 90%;
+    height: auto;
+    margin: 0px 0px;
+    margin-bottom: 162px;
+    border-radius: 20px;
+  }
+
+  .description .reviews__photo {
+    margin-left: 600px;
+    margin-top: -60px;
+  }
+
+  .reviews__photo img {
+    width: 102px;
+    height: 103px;
+  }
+}
+@media (max-width: 980px) {
+  .header__top {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__top .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .header__top .logo__item {
+    margin-left: 45px;
+  }
+  .header__top .registration {
+    margin-right: 15px;
+  }
+  .header__top .burger {
+    margin-left: 15px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .description .reviews__photo {
+    margin-left: 500px;
+    margin-top: -60px;
+  }
+
+  .reviews .title {
+    font-size: 27px;
+    line-height: 10px;
+  }
+  .reviews .subtitle {
+    font-size: 17px;
+  }
+
+  .veterinarians__description .text {
+    font-size: 13px;
+  }
+  .veterinarians__description .title {
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .veterinarians__photo {
+    margin-right: 2px;
+  }
+  .veterinarians__photo img {
+    width: 462px;
+    height: 434px;
+  }
+}
+@media (max-width: 913px) {
+  .header__photo:nth-child(3) {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 105px;
+  }
+
+  .advertising .text {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .advertising .title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .advertising .subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+
+  .benefits__inner {
+    width: 427px;
+  }
+  .benefits__inner .title {
+    font-size: 27px;
+  }
+
+  .link__item a {
+    font-size: 12px;
+  }
+
+  .link {
+    margin-right: 27px;
+  }
+  .link:last-child {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 886px) {
+  .article .description .title {
+    font-size: 30px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  .header__top {
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 10px 33px;
+  }
+
+  .article .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+
+  .description .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .works .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .panel-article .margin {
+    margin-top: 15px;
+  }
+  .panel-article .btn {
+    padding: 0px;
+  }
+
+  .header__description .subtitle {
+    font-size: 17px;
+    margin-bottom: 23px;
+    line-height: 28px;
+  }
+  .header__description .title {
+    font-size: 30px;
+    margin-bottom: 7px;
+  }
+}
+@media (max-width: 836px) {
+  .link {
+    margin-right: 17px;
+  }
+
+  .reviews__photo {
+    display: none;
+  }
+
+  .slider__photo-item {
+    height: 138px;
+    width: 138px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .reviews__sliders .slider {
+    margin-bottom: 102px;
+    border-radius: 20px;
+  }
+
+  .benefits__description {
+    margin-right: 0px;
+  }
+
+  .benefits .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .header__description {
+    margin: 50px 0px;
+  }
+
+  .header__content {
+    height: auto;
+  }
+
+  .header__photo {
+    display: none;
+  }
+
+  .company__emblem {
+    margin: 40px 10px;
+  }
+
+  .company__emblem-item {
+    width: 107px;
+    height: 77px;
+  }
+}
+@media (max-width: 760px) {
+  .article .subtitle {
+    font-size: 12px;
+    line-height: normal;
+    margin-bottom: 55px;
+  }
+
+  .article .description .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  .panel-article__inner {
+    max-width: 300px;
+  }
+
+  .panel-article__description {
+    margin-left: 16px;
+  }
+
+  .veterinarians .wrapper {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .panel-article__photo img {
+    width: 100%;
+  }
+}
+@media (max-width: 698px) {
+  .article__photo {
+    display: none;
+  }
+
+  .footer__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 450px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__links .link {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 620px) {
+  .company__emblem {
+    margin: 20px 5px;
+  }
+
+  .company__emblem-item {
+    width: 87px;
+    height: 77px;
+  }
+
+  .reviews .title {
+    font-size: 23px;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+
+  .reviews .subtitle {
+    font-size: 15px;
+  }
+
+  .veterinarians__description .text {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .veterinarians__description .title {
+    margin-bottom: 8px;
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .veterinarians__description .subtitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 23px;
+  }
+
+  .header__description .title {
+    font-size: 25px;
+    margin-bottom: 5px;
+    line-height: 35px;
+  }
+  .header__description .subtitle {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 23px;
+  }
+
+  .works .title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .advertising .title {
+    margin-bottom: 1px;
+    font-size: 16px;
+  }
+
+  .benefits__inner .title {
+    font-size: 20px;
+  }
+
+  .photo img {
+    width: 180px;
+    height: 277px;
+  }
+}
+@media (max-width: 569px) {
+  .slider__photo-item {
+    height: 98px;
+    width: 98px;
+  }
+
+  .slider__photo {
+    margin-right: 10px;
+  }
+
+  .paragraph {
+    width: auto;
+    font-size: 11px;
+  }
+
+  .logo__item {
+    display: none;
+  }
+
+  .works .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .article .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .description .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 10px 23px;
+  }
+}
+@media (max-width: 480px) {
+  .company__emblem {
+    margin: 15px 5px;
+  }
+
+  .company__emblem-item {
+    width: 77px;
+    height: 67px;
+  }
+
+  .reviews .title {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+
+  .reviews .subtitle {
+    font-size: 14px;
+  }
+
+  .veterinarians__description .text {
+    font-size: 11px;
+    margin-bottom: 3px;
+  }
+  .veterinarians__description .title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .veterinarians__description .subtitle {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 13px;
+  }
+
+  .header__description .title {
+    font-size: 19px;
+    margin-bottom: 3px;
+    line-height: 25px;
+  }
+  .header__description .subtitle {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 23px;
+  }
+
+  .veterinarians__photo img {
+    width: 362px;
+    height: 334px;
+  }
+
+  .works .title {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .advertising .title {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .article .subtitle {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .benefits__inner .title {
+    font-size: 18px;
+    line-height: normal;
+  }
+}
+@media (max-width: 433px) {
+  .examples__description {
+    margin: 0px 0px;
+  }
+
+  .link-row__item {
+    margin-right: 8px;
+  }
+
+  .link-row__item a {
+    font-size: 11px;
+  }
+
+  .article .subtitle {
+    font-size: 10px;
+    margin-bottom: 55px;
+  }
+
+  .article .description .title {
+    font-size: 17px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+
+  .panel-article__description {
+    margin-left: 5px;
+  }
+  .panel-article__description .btn {
+    padding: 0px 0px;
+  }
+  .panel-article__description .subtitle {
+    font-size: 11px;
+    width: auto;
+  }
+
+  .panel-article__inner {
+    max-width: 263px;
+  }
+
+  .link {
+    margin-right: 0px;
+  }
+
+  .footer__links {
+    margin-bottom: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .benefits .photo {
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .photo img {
+    width: 150px;
+    height: 207px;
+  }
+
+  .examples__photo {
+    width: 259px;
+    height: 121px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+    line-height: normal;
+  }
+
+  .slider__inner {
+    margin: 15px 5px;
+  }
+
+  .reviews__sliders .slider {
+    margin-bottom: 52px;
+    border-radius: 10px;
+    width: 96%;
+  }
+
+  .benefits__inner {
+    width: 90%;
+  }
+
+  .company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 362px) {
+  .examples {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .examples__description {
+    width: 95%;
+  }
+
+  .registration .text .text-link {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .works .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .article .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .description .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .veterinarians__photo img {
+    width: 292px;
+    height: 334px;
+  }
+
+  .reviews .title {
+    font-size: 15px;
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+
+  .reviews .subtitle {
+    font-size: 13px;
+  }
+
+  .veterinarians__description .text {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  .veterinarians__description .title {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .veterinarians__description .subtitle {
+    font-size: 10px;
+    margin-bottom: 10px;
+    line-height: 13px;
+  }
+
+  .header__description .title {
+    font-size: 17px;
+    margin-bottom: 6px;
+    line-height: 15px;
+  }
+  .header__description .subtitle {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 13px;
+  }
+
+  .works .title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .advertising .title {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .advertising .subtitle {
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .benefits__inner .title {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .panel-article__description .btn {
+    padding: 0px 0px;
+  }
+}

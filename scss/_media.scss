@@ -1,0 +1,734 @@
+@media (max-width: 1300px) {
+  .reviews__sliders {
+    .slider {
+      margin: 0px 30px;
+      margin-bottom: 142px;
+      &:nth-child(1) {
+        display: none;
+      }
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+  .description {
+    .reviews__photo {
+      margin-left: 600px;
+      margin-top: -150px;
+    }
+  }
+}
+@media (max-width: 1180px) {
+  .benefits__description {
+    margin-right: 87px;
+  }
+  .veterinarians__description {
+    .title {
+      margin-bottom: 22px;
+      font-size: 45px;
+      line-height: 47px;
+    }
+  }
+  .logo {
+    .logo__item {
+      margin-left: 109px;
+      margin-right: 109px;
+    }
+  }
+}
+@media (max-width: 1145px) {
+  .footer {
+    .wrapper {
+      width: 95%;
+    }
+  }
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company__emblem-item {
+    width: 117px;
+    height: 87px;
+  }
+  .description {
+    .reviews__photo {
+      margin-left: 550px;
+      margin-top: -150px;
+    }
+  }
+  .paragraph {
+    max-width: 95%;
+  }
+  .reviews__sliders {
+    .slider {
+      width: 90%;
+      height: 304px;
+      margin: 0px 0px;
+      margin-bottom: 162px;
+      border-radius: 20px;
+    }
+  }
+  .examples {
+    margin-top: 25px;
+    flex-direction: column;
+  }
+  .benefits {
+    .wrapper {
+      width: 95%;
+    }
+  }
+  .veterinarians {
+    .wrapper {
+      width: 95%;
+    }
+  }
+  .benefits__inner {
+    .title {
+      font-size: 35px;
+    }
+  }
+  .benefits__description {
+    margin-right: 47px;
+  }
+  .title {
+    margin-bottom: 22px;
+    font-size: 35px;
+    line-height: 47px;
+  }
+  .veterinarians__description {
+    .title {
+      margin-bottom: 22px;
+      font-size: 35px;
+      line-height: 47px;
+    }
+  }
+}
+@media (max-width: 1180px) {
+  .article__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-article {
+    margin: 25px 0px;
+  }
+}
+@media (max-width: 1080px) {
+  .benefits__inner {
+    .title {
+      font-size: 30px;
+    }
+  }
+  .benefits__description {
+    margin-right: 37px;
+  }
+  .article {
+    .description {
+      margin-top: 25px;
+    }
+  }
+  .reviews {
+    .title {
+      font-size: 33px;
+      line-height: 15px;
+    }
+  }
+  .works {
+    .title {
+      font-size: 34px;
+      line-height: 53px;
+    }
+  }
+  .advertising {
+    .title {
+      line-height: normal;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+  }
+  .logo .logo__item {
+    margin-left: 69px;
+    margin-right: 69px;
+  }
+}
+@media (max-width: 1030px) {
+  .location {
+    font-size: 15px;
+  }
+  .paragraph {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .slider__inner {
+    margin: 25px 15px;
+  }
+  .reviews__sliders .slider {
+    width: 90%;
+    height: auto;
+    margin: 0px 0px;
+    margin-bottom: 162px;
+    border-radius: 20px;
+  }
+  .description .reviews__photo {
+    margin-left: 600px;
+    margin-top: -60px;
+  }
+  .reviews__photo {
+    img {
+      width: 102px;
+      height: 103px;
+    }
+  }
+}
+@media (max-width: 980px) {
+  .header__top {
+    .logo {
+      display: flex;
+      align-items: baseline;
+      &__item {
+        margin-left: 45px;
+      }
+    }
+    .registration {
+      margin-right: 15px;
+    }
+    .burger {
+      margin-left: 15px;
+    }
+    justify-content: space-between;
+  }
+  .burger {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  .description .reviews__photo {
+    margin-left: 500px;
+    margin-top: -60px;
+  }
+  .reviews {
+    .title {
+      font-size: 27px;
+      line-height: 10px;
+    }
+    .subtitle {
+      font-size: 17px;
+    }
+  }
+  .veterinarians__description {
+    .text {
+      font-size: 13px;
+    }
+    .title {
+      margin-bottom: 12px;
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
+  .veterinarians__photo {
+    margin-right: 2px;
+    img {
+      width: 462px;
+      height: 434px;
+    }
+  }
+}
+@media (max-width: 913px) {
+  .header__photo:nth-child(3) {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 105px;
+  }
+  .advertising {
+    .text {
+      font-size: 13px;
+      margin-bottom: 25px;
+    }
+    .title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .subtitle {
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 20px;
+    }
+  }
+  .benefits__inner {
+    .title {
+      font-size: 27px;
+    }
+    width: 427px;
+  }
+  .link__item a {
+    font-size: 12px;
+  }
+  .link {
+    margin-right: 27px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+@media (max-width: 886px) {
+  .article {
+    .description {
+      .title {
+        font-size: 30px;
+        line-height: 26px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .header__top {
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 10px 33px;
+  }
+  .article .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+  .description .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  .works .btn {
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+  .panel-article {
+    .margin {
+      margin-top: 15px;
+    }
+    .btn {
+      padding: 0px;
+    }
+  }
+  .header__description {
+    .subtitle {
+      font-size: 17px;
+      margin-bottom: 23px;
+      line-height: 28px;
+    }
+    .title {
+      font-size: 30px;
+      margin-bottom: 7px;
+    }
+  }
+}
+@media (max-width: 836px) {
+  .link {
+    margin-right: 17px;
+  }
+  .reviews__photo {
+    display: none;
+  }
+  .slider__photo-item {
+    height: 138px;
+    width: 138px;
+  }
+  .paragraph {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .reviews__sliders .slider {
+    margin-bottom: 102px;
+    border-radius: 20px;
+  }
+  .benefits__description {
+    margin-right: 0px;
+  }
+  .benefits {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  .header__description {
+    margin: 50px 0px;
+  }
+  .header__content {
+    height: auto;
+  }
+  .header__photo {
+    display: none;
+  }
+  .company__emblem {
+    margin: 40px 10px;
+  }
+  .company__emblem-item {
+    width: 107px;
+    height: 77px;
+  }
+}
+@media (max-width: 760px) {
+  .article .subtitle {
+    font-size: 12px;
+    line-height: normal;
+    margin-bottom: 55px;
+  }
+  .article .description .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .panel-article__inner {
+    max-width: 300px;
+  }
+  .panel-article__description {
+    margin-left: 16px;
+  }
+  .veterinarians .wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-article__photo {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 698px) {
+  .article__photo {
+    display: none;
+  }
+  .footer__links {
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    .link {
+      margin-bottom: 25px;
+    }
+  }
+}
+@media (max-width: 620px) {
+  .company__emblem {
+    margin: 20px 5px;
+  }
+  .company__emblem-item {
+    width: 87px;
+    height: 77px;
+  }
+  .reviews .title {
+    font-size: 23px;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  .reviews .subtitle {
+    font-size: 15px;
+  }
+  .veterinarians__description {
+    .text {
+      font-size: 12px;
+      margin-bottom: 3px;
+    }
+    .title {
+      margin-bottom: 8px;
+      font-size: 25px;
+      line-height: 27px;
+    }
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 16px;
+      line-height: 23px;
+    }
+  }
+  .header__description {
+    .title {
+      font-size: 25px;
+      margin-bottom: 5px;
+      line-height: 35px;
+    }
+    .subtitle {
+      font-size: 15px;
+      margin-bottom: 15px;
+      line-height: 23px;
+    }
+  }
+  .works .title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .advertising .title {
+    margin-bottom: 1px;
+    font-size: 16px;
+  }
+  .benefits__inner .title {
+    font-size: 20px;
+  }
+  .photo {
+    img {
+      width: 180px;
+      height: 277px;
+    }
+  }
+}
+@media (max-width: 569px) {
+  .slider__photo-item {
+    height: 98px;
+    width: 98px;
+  }
+  .slider__photo {
+    margin-right: 10px;
+  }
+  .paragraph {
+    width: auto;
+    font-size: 11px;
+  }
+  .logo__item {
+    display: none;
+  }
+  .works .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .article .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .description .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .btn {
+    font-size: 13px;
+    padding: 10px 23px;
+  }
+}
+@media (max-width: 480px) {
+  .company__emblem {
+    margin: 15px 5px;
+  }
+  .company__emblem-item {
+    width: 77px;
+    height: 67px;
+  }
+  .reviews .title {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+  .reviews .subtitle {
+    font-size: 14px;
+  }
+  .veterinarians__description {
+    .text {
+      font-size: 11px;
+      margin-bottom: 3px;
+    }
+    .title {
+      margin-bottom: 8px;
+      font-size: 20px;
+      line-height: 27px;
+    }
+    .subtitle {
+      font-size: 12px;
+      margin-bottom: 10px;
+      line-height: 13px;
+    }
+  }
+  .header__description {
+    .title {
+      font-size: 19px;
+      margin-bottom: 3px;
+      line-height: 25px;
+    }
+    .subtitle {
+      margin: 0 auto;
+      width: 80%;
+      font-size: 13px;
+      margin-bottom: 10px;
+      line-height: 23px;
+    }
+  }
+  .veterinarians__photo img {
+    width: 362px;
+    height: 334px;
+  }
+  .works .title {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .advertising .title {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .article .subtitle {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .benefits__inner .title {
+    font-size: 18px;
+    line-height: normal;
+  }
+}
+@media (max-width: 433px) {
+  .examples__description {
+   margin: 0px 0px;
+}
+  .link-row__item {
+    margin-right: 8px;
+}
+  .link-row__item a {
+    font-size: 11px;
+}
+  .article .subtitle {
+    font-size: 10px;
+    margin-bottom: 55px;
+}
+  .article .description .title {
+    font-size: 17px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+.panel-article__description{
+  .btn{
+    padding: 0px 0px;
+  }
+  margin-left: 5px;
+  .subtitle{
+    font-size: 11px;
+    width: auto;
+  }
+}
+  .panel-article__inner {
+    max-width: 263px;
+}
+  .link {
+    margin-right: 0px;
+}
+  .footer__links{
+    margin-bottom: 5px;
+    flex-direction: column;
+  }
+  .benefits .photo {
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+  .photo img {
+    width: 150px;
+    height: 207px;
+}
+  .examples__photo{
+      width: 259px;
+      height: 121px;
+  }
+  .paragraph {
+    font-size: 10px;
+    line-height: normal;
+  }
+  .slider__inner {
+    margin: 15px 5px;
+  }
+  .reviews__sliders .slider {
+    margin-bottom: 52px;
+    border-radius: 10px;
+    width: 96%;
+  }
+  .benefits__inner {
+    width: 90%;
+  }
+  .company {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 362px) {
+  .examples{
+    align-items: center;
+  }
+  .examples__description{
+    width: 95%;
+  }
+  .registration .text .text-link {
+    font-size: 12px;
+    margin-right: 5px;
+}
+  .works .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .article .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .description .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .veterinarians__photo img {
+    width: 292px;
+    height: 334px;
+}
+  .reviews .title {
+    font-size: 15px;
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+  .reviews .subtitle {
+    font-size: 13px;
+  }
+  .veterinarians__description {
+    .text {
+      font-size: 10px;
+      margin-bottom: 3px;
+    }
+    .title {
+      margin-bottom: 5px;
+      font-size: 15px;
+      line-height: 17px;
+    }
+    .subtitle {
+      font-size: 10px;
+      margin-bottom: 10px;
+      line-height: 13px;
+    }
+  }
+  .header__description {
+    .title {
+      font-size: 17px;
+      margin-bottom: 6px;
+      line-height: 15px;
+    }
+    .subtitle {
+      font-size: 12px;
+      margin-bottom: 10px;
+      line-height: 13px;
+    }
+  }
+  .works .title {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .advertising .title {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .advertising .subtitle {
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+  .benefits__inner .title {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .panel-article__description .btn {
+    padding: 0px 0px;
+}
+}

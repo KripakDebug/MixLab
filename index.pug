@@ -1,0 +1,270 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/reset.min.css")
+        link(rel="stylesheet", href="./css/style.css")
+        title maxlab
+    body 
+        header.header 
+            .header__top
+               nav.nav
+                ul.nav__links 
+                    li.nav__link 
+                       a.nav__link-item(href="#") Veterinarians
+                    li.nav__link 
+                       a.nav__link-item(href="#") How it works
+                    li.nav__link 
+                       a.nav__link-item(href="#") About us   
+                    li.nav__link 
+                       a.nav__link-item(href="#") Blog
+                    li.nav__link 
+                       a.nav__link-item(href="#") Shop   
+               .logo 
+                    .burger 
+                        div 
+                        div 
+                        div
+                    img.logo__item(src="./images/logo.svg", alt="logo") 
+               .registration 
+                    .text
+                        a.text-link(href="#") Veterinarian login   
+                    button.btn Try Mixlab
+            .header__content
+                .header__photo 
+                    img(src="../images/imageleft.svg", alt="imageleft")
+                .description.header__description
+                    .title The pet pharmacy humans are jealous of.
+                    .subtitle 5 stars on #[span Yelp, Google]  and #[span Facebook] because your best friend deserves only the best in pet care. 
+                    button.btn Try Mixlab
+                .header__photo 
+                    img(src="../images/frame.svg", alt="frame")
+                .header__photo 
+                    img(src="../images/imageright.svg", alt="imageright")
+        section.benefits
+           .wrapper 
+            .benefits__description
+                .benefits__inner
+                    .title We couldn’t find a pharmacy experience worthy of our best buds— so we
+                    .photo
+                        img(src="../images/dog.svg", alt="dog")
+            .advertising__inner
+                .advertising
+                    .title Patients first, always
+                    .subtitle We know how stressful it can be when your pet needs meds. That’s why we offer free next-day delivery and even do same-day in NYC and LA. We got you.
+                    hr
+                .advertising
+                    .title Tailored care
+                    .subtitle.bottom We’ll work with you and your veterinarian to find the very best solution for your pet. With our custom compounded options, we can change the dosage, flavor and form. We even have a flavor guarantee with over 40 options!
+                    .text P.S. Everyone seems to love the chicken-flavored chew treats!
+                    hr
+                .advertising
+                    .title Support, 7 days a week
+                    .subtitle You’re not alone. Text, call, or email us 7 days a week—we’ll answer and do our best to sprinkle in a bit of sunshine. ☀️
+        section.works 
+          .wrapper 
+              .title How it works
+              .examples 
+                .examples__description
+                      img.examples__photo(src="./images/bird.svg", alt="bird")
+                      .advertising
+                        .title.examples__title We receive your prescription
+                        .subtitle Either your veterinarian sends us a prescription or we reach out to them for you. Whatever is easiest!
+                .examples__description
+                      img.examples__photo(src="./images/rabbit.svg", alt="rabbit")
+                      .advertising
+                        .title.examples__title We deliver your care package
+                        .subtitle.examples__subtitle Fast and free next-day delivery, straight to your door. Same-day in NYC and LA.
+                .examples__description
+                      img.examples__photo(src="./images/rabbit2.svg", alt="rabbit")
+                      .advertising
+                        .title.examples__title You treat your pet
+                        .subtitle.examples__subtitle Give your pet the care they need to feel better. Plus they can play with our included toy!
+              button.btn Learn More        
+        section.veterinarians
+            .wrapper
+                .veterinarians__photo 
+                    img.veterinarians__photo-item(src="../images/doghuman.svg", alt="doghuman")
+                .description.veterinarians__description
+                    .text For Veterinarians
+                    .title We're here to support you and your practice
+                    .subtitle Mixlab offers a simple, fast, reliable (and fun) home delivery pharmacy service for your clients. No more delays, no more miscommunications, no more grumpy pets. It’s time to partner with a pharmacy that cares about customer experience as much as you do.
+                    button.btn Learn More
+        section.reviews
+            .description
+                .title Pets love Mixlab!
+                .subtitle See why we're 5 stars on #[span Yelp, Google]  and #[span Facebook]:) 
+                .reviews__photo 
+                    img(src="../images/love.svg", alt="love")
+            .reviews__sliders
+                .slider 
+                    .slider__inner 
+                        .slider__photo 
+                            img.slider__photo-item(src="../images/image.svg", alt="imagedog")
+                        .slider__description 
+                            .paragraph I wish I could give Mixlab ten stars! Their customer service is beyond outstanding. They send a text update to let me know when they've received a prescription from the vet and then another to ask when I would like it delivered - usually the same day! The meds themselves are cleverly packaged in a box with a personal note to my dog, Olive, and a toy for her inside. I wish my prescriptions came this way! (Well, maybe minus the toy.) To top it off, Mixlab texts a few days later to see how Olive is doing. If you're not using this pharmacy for your pet's medications, you are seriously missing out.
+                            .slider__info 
+                                .social-network
+                                    img.social-network__photo(src="./images/instagramicon.svg", alt="instagram")
+                                .location Tootsie, CA  
+                .slider 
+                    .slider__inner 
+                        .slider__photo 
+                            img.slider__photo-item(src="../images/image.svg", alt="imagedog")
+                        .slider__description 
+                            .paragraph “Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”
+                            .slider__info 
+                                .social-network
+                                    img.social-network__photo(src="./images/instagramicon.svg", alt="instagram")
+                                .location Tootsie, CA   
+                .slider 
+                    .slider__inner 
+                        .slider__photo 
+                            img.slider__photo-item(src="../images/image.svg", alt="imagedog")
+                        .slider__description 
+                            .paragraph “Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”
+                            .slider__info 
+                                .social-network
+                                    img.social-network__photo(src="./images/instagramicon.svg", alt="instagram")
+                                .location Tootsie, CA 
+        section.article
+            .description
+                .title In the Wild
+                .subtitle In The Wild is a collection of pieces to help close the communication gap, while growing the love (and understanding) between you and your best pal.
+            .article__photo 
+                img.article__photo-item(src="../images/flowers.svg", alt="flower")
+            .article__content 
+                .wrapper 
+                    .article__info 
+                        .article__inner 
+                            .panel-article 
+                                .panel-article__inner 
+                                    .panel-article__photo 
+                                        img.panel-article__photo-item(src="../images/articlephoto.svg", alt="articlephoto")
+                                    .description.panel-article__description
+                                        .text May 3, 2021
+                                        .title What is compounding?
+                                        .subtitle Compounding is the art and science of preparing personalized medications.
+                                        button.btn.panel-article__btn Read the article
+                            .panel-article 
+                                .panel-article__inner 
+                                    .panel-article__photo 
+                                        img.panel-article__photo-item(src="../images/articlephoto2.svg", alt="articlephoto2")
+                                    .description.panel-article__description
+                                        .text June 15, 2021
+                                        .title Anxiety in Pets
+                                        .subtitle An interview with a top behavioral specialist in NYC.
+                                        button.btn.panel-article__btn.margin Read the article
+            .article__photo 
+                img.article__photo-item(src="../images/photo2.svg", alt="photoright")
+
+            button.btn Learn More
+        section.company 
+            .company__emblem
+                img.company__emblem-item(src="../images/company.svg", alt="company1")
+            .company__emblem
+                img.company__emblem-item(src="../images/company2.svg", alt="company2")
+            .company__emblem
+                img.company__emblem-item(src="../images/company3.svg", alt="company3")
+            .company__emblem
+                img.company__emblem-item(src="../images/company4.svg", alt="company4")
+            .company__emblem
+                img.company__emblem-item(src="../images/company5.svg", alt="company5")
+        footer.footer 
+            .wrapper 
+                .footer__content 
+                    .footer__links 
+                            ul.link
+                                li.link__item.bold 
+                                    a(href="#") Quick Links
+                                li.link__item 
+                                    a(href="#") Veterinarians
+                                li.link__item 
+                                    a(href="#") Products
+                                li.link__item 
+                                    a(href="#") How it Works
+                                li.link__item 
+                                    a(href="#") About us
+                                li.link__item 
+                                    a(href="#") Blog
+                                li.link__item 
+                                    a(href="#") Shop
+                                li.link__item 
+                                    a(href="#") Careers
+                                li.link__item 
+                                    a(href="#") Veterinarian login
+                                li.link__item 
+                                    a(href="#") Contact us
+                            ul.link
+                                li.link__item.bold 
+                                    a(href="#") Call or Text
+                                li.link__item.margin 
+                                    a(href="#") (888) 901-4480
+                                li.link__item.bold 
+                                    a(href="#") Email
+                                li.link__item.margin 
+                                    a(href="#") hello@mixlabrx.com
+                                li.link__item.bold 
+                                    a(href="#") Fax
+                                li.link__item 
+                                    a(href="#") (212) 967-0892
+                            ul.link
+                                li.link__item.bold 
+                                    a(href="#") New York City
+                                li.link__item 
+                                    a(href="#") 336 West 37th St
+                                li.link__item 
+                                    a(href="#") Suite 850
+                                li.link__item.margin  
+                                    a(href="#") New York, NY 10018
+                                li.link__item 
+                                    a(href="#") Mon-Sat 10am - 8pm ET
+                                li.link__item 
+                                    a(href="#") Sun 10am - 2pm ET
+                            ul.link
+                                li.link__item.bold 
+                                    a(href="#") Los Angeles
+                                li.link__item 
+                                    a(href="#") 2223 Federal Ave
+                                li.link__item.margin 
+                                    a(href="#") Los Angeles, CA 90064
+                                li.link__item 
+                                    a(href="#") Mon-Sat 9am - 7pm PT
+                                li.link__item 
+                                    a(href="#") Sun 9am - 1pm PT
+                            ul.link
+                                li.link__item.bold
+                                    a(href="#") Social
+                                ul.link__icons 
+                                    li.link__icon 
+                                        a(href="#")
+                                            img(src="../images/instagram.svg", alt="instagram")
+                                    li.link__icon
+                                        a(href="#")
+                                            img(src="../images/facebook.svg", alt="facebook")
+                                    li.link__icon
+                                        a(href="#")
+                                            img(src="../images/twiter.svg", alt="twiter")
+                                    li.link__icon
+                                        a(href="#")
+                                            img(src="../images/socialnetwork.svg", alt="socialnetwork")
+                                    li.link__icon
+                                        a(href="#")
+                                            img(src="../images/google.svg", alt="google")
+                    .footer__info 
+                        ul.link-row
+                                li.link-row__item 
+                                    a(href="#") ©2021 Mixlab, Inc.
+                                li.link-row__item 
+                                    a(href="#") Privacy Policy
+                                li.link-row__item 
+                                    a(href="#") Terms of Service
+
+                               
+
+
+
+
+
